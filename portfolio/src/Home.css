@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end; 
-  background-color: rgb(237, 238, 239);
+  /*background-color: rgb(237, 238, 239);*/
 }
 
 div[id^='item']:hover {
