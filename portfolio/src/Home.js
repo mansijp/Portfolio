@@ -14,12 +14,16 @@ function App() {
         <td><div id="item4">Projects</div></td>
         <td><div id="item5">Education</div></td>
         <td><div id="item6">Socials</div></td>
-        <div id="resumeHover"><td><div id="resume">Resume</div></td></div>
+        <td><div id="resume">Resume</div></td>
       </tr>
       <tr>
         <td><div id="about1"><h4>Hi, I'm Mansi Patel</h4></div></td>
-        <td colspan="7"><div id="about2">
+        <td colspan="7" rowspan="3"><div id="about2">
           <img alt="" src={require('./abcdef.jpg')}></img></div></td>
+      </tr>
+      <tr>
+        <td><div id="about3"><h6>A software engineering student</h6></div>
+        <div id="about4"><h6>Access Resume Here</h6></div></td>
       </tr>
       </table>
     </div></body>
