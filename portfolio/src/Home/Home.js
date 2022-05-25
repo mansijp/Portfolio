@@ -1,8 +1,9 @@
 import './Home.css';
 
-function App() {
-
+function HomePage() {
+  
   return (
+
     <body>
     <div id="menubar">
       <table>
@@ -16,6 +17,7 @@ function App() {
         <td><div id="item6">Socials</div></td>
         <td><div id="resume">Resume</div></td>
       </tr>
+      <div className="spacer"></div>
       <tr>
         <td><div id="about1"><h4>Hi, I'm Mansi Patel</h4></div></td>
         <td colspan="7" rowspan="3"><div id="about2">
@@ -26,9 +28,10 @@ function App() {
         <div id="about4"><h6>Access Resume Here</h6></div></td>
       </tr>
       </table>
-    </div></body>
+    </div>
+    </body>
   );
 }
 
 
-export default App;
+export default HomePage;

@@ -5,6 +5,11 @@
   width: 100%;
   display: flex;
   justify-content: flex-end; 
+  padding-top: 10px;
+}
+
+.spacer {
+  padding-bottom: 70px;
 }
 
 div[id^='item']:hover {
