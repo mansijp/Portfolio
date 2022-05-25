@@ -5,7 +5,6 @@
   width: 100%;
   display: flex;
   justify-content: flex-end; 
-  /*background-color: rgb(237, 238, 239);*/
 }
 
 div[id^='item']:hover {
@@ -13,6 +12,7 @@ div[id^='item']:hover {
   padding: 1px;
   color: white;
   border-radius: 20px;
+  cursor: url("hand.png"), pointer;
 }
 
 div[id='resume']:hover {
@@ -20,6 +20,7 @@ div[id='resume']:hover {
   padding: 1px;
   color: white;
   border-radius: 20px;
+  cursor: url("hand.png"), pointer;
 }
 
 #name {
@@ -69,6 +70,7 @@ div[id='resume']:hover {
 #about4 h6:hover {
   text-decoration: underline;
   font-size: 40px;
+  cursor: url("hand.png"), pointer;
 }
 
 #about1 h4{

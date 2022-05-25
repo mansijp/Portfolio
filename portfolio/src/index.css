@@ -11,5 +11,6 @@ html {
   background-image: url('newback4.png');
   background-repeat: repeat;
   background-size: contain;
+  cursor: url('cursor.png'), pointer;
 }
 

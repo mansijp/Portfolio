@@ -19,7 +19,7 @@ function App() {
       <tr>
         <td><div id="about1"><h4>Hi, I'm Mansi Patel</h4></div></td>
         <td colspan="7" rowspan="3"><div id="about2">
-          <img alt="" src={require('./abcdef.jpg')}></img></div></td>
+          <img alt="" src={require('./profile.jpg')}></img></div></td>
       </tr>
       <tr>
         <td><div id="about3"><h6>A software engineering student</h6></div>
