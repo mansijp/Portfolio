@@ -4,8 +4,8 @@ function SkillsPage() {
 
   return (
     <body>
-      
-      <h1 id="title">Skills</h1>
+      <div id="spacerskills"></div>
+      <h1 id="skills">Skills</h1>
       <div id="logos"> 
         <table>
           <tr>

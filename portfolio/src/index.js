@@ -6,6 +6,10 @@ import reportWebVitals from './reportWebVitals';
 // Webpages--------------------
 import HomePage from './Home/Home';
 import SkillsPage from './Skills/Skills';
+import EducationPage from './Education/Education';
+import ProjectsPage from './Projects/Projects';
+import ExperiencePage from './Experience/Experience';
+import SocialsPage from './Socials/Socials';
 
 //-------------------------
 
@@ -14,6 +18,11 @@ root.render(
   <React.StrictMode>
     <HomePage />
     <SkillsPage />
+    <EducationPage />
+    <ProjectsPage />
+    <ExperiencePage />
+    <SocialsPage />
+
   </React.StrictMode>
 );
 

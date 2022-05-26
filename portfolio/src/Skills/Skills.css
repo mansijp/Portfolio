@@ -4,11 +4,22 @@
 #logos {
     padding-top: 10px;
     padding-left: 200px;
+    padding-bottom: 20000px;
 }
 
-#title {
+#spacerskills {
+    padding-bottom: 100px;
+}
+
+#skills {
     font-size: 60px;
-    padding-left: 150px;
-    padding-top: 200px;
+    padding-left: 220px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     font-family: 'Inconsolata', monospace;
+    color: #0071c6;
+}
+
+div[id^="logo"]:hover {
+    cursor: url("hand.png"), pointer;
 }
