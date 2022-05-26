@@ -4,15 +4,14 @@ import ResumePDF from './Patel_Mansi_2022.pdf';
 function HomePage() {
 
   const openHome = () => {
-    const e = document.getElementById("menubar");
-    if (e) { e.scrollIntoView({behavior: "smooth"}); }
+    window.location.reload();
   }
   const openSkills = () => {
     const e = document.getElementById("skills");
     if (e) { e.scrollIntoView({behavior: "smooth"}); }
   }
   const openExperience = () => {
-    const e = document.getElementById("skills");
+    const e = document.getElementById("experience");
     if (e) { e.scrollIntoView({behavior: "smooth"}); }
   }
   const openProjects = () => {
