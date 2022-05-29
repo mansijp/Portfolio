@@ -14,3 +14,8 @@ html {
   cursor: url('cursor.png'), pointer;
 }
 
+#test {
+  position: sticky;
+  top: 0;
+}
+

@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 #menubar{
   width: 100%;
   display: flex;
   justify-content: flex-end; 
   padding-top: 10px;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
 }
 
 #spacerhome {
@@ -31,7 +36,7 @@ div[id='resume']:hover {
 #name {
   text-align: center;
   color: #0071c6;
-  font-size: 22px;
+  font-size: 26px;
   padding: 15px;
   padding-right: 1000px;
   font-family: 'Inconsolata', monospace;
@@ -45,9 +50,10 @@ div[id='resume']:hover {
 
 #about1 {
   height: 300px;
-  font-size: 80px;
+  font-size: 90px;
   display: flex;
   align-items: flex-end;
+  
 }
 
 #about3 {

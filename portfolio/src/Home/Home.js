@@ -4,7 +4,8 @@ import ResumePDF from './Patel_Mansi_2022.pdf';
 function HomePage() {
 
   const openHome = () => {
-    window.location.reload();
+    const e = document.getElementById("about1");
+    if (e) { e.scrollIntoView({behavior: "smooth"}); }
   }
   const openSkills = () => {
     const e = document.getElementById("skills");
@@ -35,7 +36,7 @@ function HomePage() {
     <body>
     <div id="menubar">
       <table>
-      <tr>
+      <tr id="navbar">
         <td><div id="name">Mansi Patel</div></td>
         <td><div onClick={openHome} id="item1">Home</div></td>
         <td><div onClick={openSkills} id="item2">Skills</div></td>      
